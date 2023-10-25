@@ -33,8 +33,8 @@ function onClick(event) {
     return;
   }
 
-  const currentPhoto = event.target.src;
-  const imgUrl = galleryItems.find(({ preview }) => preview === currentPhoto);
+  const currentPicture = event.target.src;
+  const imgUrl = galleryItems.find(({ preview }) => preview === currentPicture);
 
   instance = basicLightbox.create(
     `
